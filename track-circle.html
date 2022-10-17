@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .form-control {
+        outline: none;
+      }
+      .carousel-item {
+        height: 60ch;
+        background-color: black;
+        color: white;
+        position: relative;
+      }
+      .overlay-image {
+        position: absolute;
+        opacity: 0.3;
+        background-size: cover;
+        background-position: center;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
+      .bg {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(
+            rgba(90, 90, 90, 0.603),
+            rgba(90, 90, 90, 0.603)
+          ),
+          url(360_F_272437887_lgtV24PGnSCnCvHrgHoCTuG4gJdnTBt4.jpg);
+      }
+    </style>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="all">
+      <div class="bg" style="background-image: url()">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo01"
+              aria-controls="navbarTogglerDemo01"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <a class="navbar-brand" href="#"
+                ><img src="Artboard 119@1.5x.png" alt=""
+              /></a>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link disabled"
+                    href="#"
+                    tabindex="-1"
+                    aria-disabled="true"
+                    >Disabled</a
+                  >
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input
+                  class="form-control me-2 text-danger"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-danger" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <div
+          id="carouselExampleFade"
+          class="carousel slide carousel-fade"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+              <div
+                class="overlay-image"
+                style="
+                  background-image: url(se-image-1bab9a464af181838dbcf363f40774bb.jpg);">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia iusto aspernatur minima eum ad voluptate esse, iste magnam quia tempore quae laudantium vitae iure quibusdam dolorum quos obcaecati, quod nam?
+                    <div class="btn btn-ifo"></div>
+                  </p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <div
+                class="overlay-image"
+                style="
+                  background-image: url(se-image-3bbeac5006e9b894545a3519cc23a735.jpg);
+                "
+              ></div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <div
+                class="overlay-image"
+                style="
+                  background-image: url(bmw-home-teaser-the7-1680x756.jpg.asset.1616393731198.jpg);
+                "
+              ></div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleFade"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <div class="row mt-4 px-5">
+          <div class="col">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="BMW-8er-Convertible-G14.jpg"
+                alt=""
+              />
+              <img class="mt-3" src="./icons8-gps-50.png" width="50px" alt="" />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                width="100px"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3"
+                />
+              </svg>
+
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Deserunt itaque soluta error magnam recusandae nulla laboriosam
+                a veniam similique obcaecati.
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="front-left-side-47.jpg" alt="" />
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Deserunt itaque soluta error magnam recusandae nulla laboriosam
+                a veniam similique obcaecati.
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" src="gallery_9.jpg" alt="" />
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Deserunt itaque soluta error magnam recusandae nulla laboriosam
+                a veniam similique obcaecati.
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Deserunt itaque soluta error magnam recusandae nulla laboriosam
+                a veniam similique obcaecati.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
